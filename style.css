@@ -27,6 +27,20 @@
   --dl-space-space-threeunits: 48px;
   --dl-space-space-oneandhalfunits: 24px;
 }
+
+@font-face {
+  font-family: "apfel";
+  src: url("../../public/playground_assets//apfel.woff2") format("woff2"),
+       url("../../public/playground_assets//apfel.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ortica";
+  src: url("../../public/playground_assets//ortica.woff2") format("woff2"),
+       url("../../public/playground_assets//ortica.woff") format("woff");
+}
+
+
 .button {
   color: var(--dl-color-gray-black);
   display: inline-block;
